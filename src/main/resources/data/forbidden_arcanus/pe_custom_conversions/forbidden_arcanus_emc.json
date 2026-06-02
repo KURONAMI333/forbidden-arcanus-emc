@@ -1,0 +1,98 @@
+{
+  "replace": false,
+  "comment": "Forbidden Arcanus EMC integration for ProjectE (KURONAMI). Worldgen / mob-drop primitives seeded; vanilla recipes derive the rest. Tools/armor/aureal-charge/quantum-catcher items intentionally have no EMC. Clibano & hephaestus ritual outputs deferred to a later pass.",
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "forbidden_arcanus:arcane_crystal"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "forbidden_arcanus:rune"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4,
+        "id": "forbidden_arcanus:darkstone"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8192,
+        "id": "forbidden_arcanus:stella_arcanum"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "forbidden_arcanus:edelwood_log"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "forbidden_arcanus:aurum_log"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1,
+        "id": "forbidden_arcanus:aurum_leaves"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "forbidden_arcanus:aurum_sapling"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "forbidden_arcanus:fungyss"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16,
+        "id": "forbidden_arcanus:yellow_orchid"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4,
+        "id": "forbidden_arcanus:soulless_sand"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "forbidden_arcanus:bat_wing"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1024,
+        "id": "forbidden_arcanus:dragon_scale"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "forbidden_arcanus:tentacle"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "forbidden_arcanus:soul"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "forbidden_arcanus:corrupt_soul"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "forbidden_arcanus:enchanted_soul"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2048,
+        "id": "forbidden_arcanus:xpetrified_orb"
+      }
+    ]
+  }
+}

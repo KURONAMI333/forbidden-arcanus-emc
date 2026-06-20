@@ -1,0 +1,25 @@
+{
+  "comment": "Forbidden Arcanus EMC integration for ProjectE (KURONAMI). Worldgen / mob-drop primitives seeded; vanilla recipes derive the rest. Tools/armor/aureal-charge/quantum-catcher items intentionally have no EMC.",
+  "values": {
+    "before": {
+      "forbidden_arcanus:arcane_crystal": 256,
+      "forbidden_arcanus:rune": 256,
+      "forbidden_arcanus:darkstone": 4,
+      "forbidden_arcanus:stella_arcanum": 8192,
+      "forbidden_arcanus:edelwood_log": 32,
+      "forbidden_arcanus:aurum_log": 32,
+      "forbidden_arcanus:aurum_leaves": 1,
+      "forbidden_arcanus:aurum_sapling": 32,
+      "forbidden_arcanus:fungyss": 32,
+      "forbidden_arcanus:yellow_orchid": 16,
+      "forbidden_arcanus:soulless_sand": 4,
+      "forbidden_arcanus:bat_wing": 32,
+      "forbidden_arcanus:dragon_scale": 1024,
+      "forbidden_arcanus:tentacle": 64,
+      "forbidden_arcanus:soul": 128,
+      "forbidden_arcanus:corrupt_soul": 256,
+      "forbidden_arcanus:enchanted_soul": 512,
+      "forbidden_arcanus:xpetrified_orb": 2048
+    }
+  }
+}

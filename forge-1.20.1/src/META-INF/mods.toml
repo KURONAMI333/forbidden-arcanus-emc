@@ -1,0 +1,43 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/KURONAMI333/forbidden-arcanus-emc/issues"
+
+[[mods]]
+modId="forbidden_arcanus_emc"
+version="0.1.0"
+displayName="Forbidden Arcanus ProjectE EMC"
+authors="KURONAMI"
+logoFile="forbidden_arcanus_emc.png"
+displayURL="https://github.com/KURONAMI333/forbidden-arcanus-emc"
+description='''
+Adds ProjectE EMC values to Forbidden Arcanus. Hand-tuned EMC for its worldgen resources (arcane crystal, runes, darkstone, stella arcanum), trees, plants and mob drops; most crafted content derives automatically from vanilla recipes. Stateful gear (tools, armor, aureal/charge items, quantum catchers) intentionally has no EMC. Requires ProjectE and Forbidden Arcanus.
+'''
+
+[[dependencies.forbidden_arcanus_emc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forbidden_arcanus_emc]]
+    modId="forge"
+    mandatory=false
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forbidden_arcanus_emc]]
+    modId="projecte"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.forbidden_arcanus_emc]]
+    modId="forbidden_arcanus"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"

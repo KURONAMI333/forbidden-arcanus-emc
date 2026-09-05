@@ -1,8 +1,8 @@
 Play [Forbidden Arcanus](https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus) with [ProjectE](https://modrinth.com/mod/projecte) and its content has no EMC value. This data-only add-on fixes that.
 
-- **Hand-tuned EMC** for the gathered resources — Arcane Crystal, Runes, Darkstone, Stella Arcanum, the Edelwood / Aurum / Fungyss trees, and mob drops (Dragon Scale, Souls, Tentacle, Bat Wing).
+- **Hand-tuned EMC** for the gathered resources — Arcane Crystal, Runes, Darkstone, Stellarite Pieces, the Edelwood / Aurum / Fungyss trees, and mob drops (Dragon Scale, Souls, Tentacle, Bat Wing).
 - Most crafted content — Deorum, building blocks, decoration — **derives its EMC automatically** from the mod's vanilla-style recipes.
-- **Endgame Stella Arcanum is priced high** to keep its rarity meaningful.
+- **Endgame Stellarite is priced high** to keep its rarity meaningful.
 - **Stateful items carry no EMC by design**: tools, armor, the Aureal-storing bottles and tanks, Obsidian Skulls, and Quantum Catchers all hold durability or stored charge/entity state.
 
 It adds no items, blocks, or recipes — only EMC data. Values apply on world load; open a Transmutation Table to see them.

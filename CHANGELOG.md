@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.1
+
+- Moved the stellarite anchor from Stella Arcanum to the Stellarite Piece. ProjectE forces every item in the ores tag to zero, so the old value never applied and the stellarite line went unpriced. One Stella Arcanum drops one Stellarite Piece, so the value is unchanged.
+
 ## v0.1.0
 
 Initial release.

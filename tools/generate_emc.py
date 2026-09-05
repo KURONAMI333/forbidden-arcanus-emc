@@ -24,14 +24,17 @@ OUT = os.path.join(
 )
 
 # Hand-set EMC for primitives (P2; ProjectE anchors: stone 1, log 32, leaves 1,
-# iron 256, gold 2048, diamond 8192, ender_pearl 1024). deorum_ingot / stellarite_piece
-# are craftable -> left to auto-derivation.
+# iron 256, gold 2048, diamond 8192, ender_pearl 1024). deorum_ingot is craftable
+# -> left to auto-derivation.
 BEFORE = {
     # worldgen ores / stone (drops)
     "arcane_crystal": 256,  # arcane crystal ore drop (stone-tier)
     "rune": 256,  # runic stone ore drop
     "darkstone": 4,  # stone variant blob
-    "stella_arcanum": 8192,  # rare deep ore (high tier)
+    # stella_arcanum（鉱石ブロック本体）は c:ores に属し、ProjectE の OreBlacklistMapper が
+    # 実行時に 0 を強制する。落とし物側 stellarite_piece（1ブロック=1個）へ同じ値を置く。
+    # piece は block との 9:1 往復しか作る経路が無く自動導出では 0 のままになるため手付けが要る。
+    "stellarite_piece": 8192,  # rare deep ore drop (high tier)
     # trees / plants (gathered)
     "edelwood_log": 32,
     "aurum_log": 32,

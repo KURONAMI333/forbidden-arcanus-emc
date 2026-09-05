@@ -12,7 +12,7 @@ It adds no items, blocks, or recipes — only EMC data. Values apply on world lo
 - [ProjectE](https://modrinth.com/mod/projecte) — required
 - [Forbidden Arcanus](https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus) — required
 
-Clibano furnace alloys and Hephaestus Forge ritual outputs aren't valued in this first version. EMC values are a considered first pass; balance feedback is welcome on the issue tracker.
+Clibano furnace alloys and Hephaestus Forge ritual outputs aren't valued in this first version. EMC values are a considered first pass; balance feedback is welcome.
 
 Bugs and questions: comment on the CurseForge page, or DM @kuronami333 on X.
 

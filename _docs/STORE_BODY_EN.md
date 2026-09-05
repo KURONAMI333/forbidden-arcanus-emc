@@ -1,5 +1,3 @@
-# ProjectE: EMC for Forbidden Arcanus
-
 Play [Forbidden Arcanus](https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus) with [ProjectE](https://modrinth.com/mod/projecte) and its content has no EMC value. This data-only add-on fixes that.
 
 - **Hand-tuned EMC** for the gathered resources — Arcane Crystal, Runes, Darkstone, Stella Arcanum, the Edelwood / Aurum / Fungyss trees, and mob drops (Dragon Scale, Souls, Tentacle, Bat Wing).
@@ -13,8 +11,9 @@ It adds no items, blocks, or recipes — only EMC data. Values apply on world lo
 
 - [ProjectE](https://modrinth.com/mod/projecte) — required
 - [Forbidden Arcanus](https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus) — required
-- NeoForge 1.21.1
 
 Clibano furnace alloys and Hephaestus Forge ritual outputs aren't valued in this first version. EMC values are a considered first pass; balance feedback is welcome on the issue tracker.
 
-All Rights Reserved (free to put in any modpack, no permission or credit needed). Forbidden Arcanus is by the Forbidden Arcanus team; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source and issues: https://github.com/KURONAMI333/forbidden-arcanus-emc
+Bugs and questions: comment on the CurseForge page, or DM @kuronami333 on X.
+
+All Rights Reserved (free to put in any modpack, no permission or credit needed). Forbidden Arcanus is by the Forbidden Arcanus team; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source: https://github.com/KURONAMI333/forbidden-arcanus-emc

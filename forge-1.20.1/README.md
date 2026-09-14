@@ -11,13 +11,12 @@ Valhelsia Core).
 
 ```bash
 python tools/generate_emc.py   # regenerate src/data/.../forbidden_arcanus_emc.json
-python tools/build_jar.py       # -> build/forbidden_arcanus_emc-0.1.0-forge-1.20.1.jar
+python tools/build_jar.py
 ```
 
 ## Verify
 
-Same as the 042 sibling — load with ProjectE 1.20.1 + Forbidden & Arcanus (+ Valhelsia Core)
+Load with ProjectE 1.20.1 + Forbidden & Arcanus (+ Valhelsia Core)
 on a Forge 1.20.1 server and confirm `mo.pr.PECore` parses the file with 0 errors.
-Canon: `kuronami-mods/knowledge/PROJECTE_EMC_NOTES.md` → 1.20.1 Forge 展開.
 
-Status: v0.1.0 — built; ProjectE 1.20.1 parse verified (0 errors) on a Forge 1.20.1 server.
+For the mod overview and support route, see the [repository README](../README.md).
